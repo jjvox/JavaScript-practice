@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>J마켓 메인 페이지</title>
+    <link href="public/styles/reset.css" rel="stylesheet" />
+    <link href="public/styles/header.css" rel="stylesheet" />
+    <link href="public/styles/main.css" rel="stylesheet" />
+    <link href="public/styles/product.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a id="title" href="./index.html">J마켓</a>
+      <a id="cart" href="./cart.html">
+        <svg
+          fill="none"
+          height="27"
+          viewBox="0 0 30 25"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.39999 1.70001H6.60001"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+          <path
+            d="M6.60001 1.70001L11 18.9"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+          <path
+            d="M11.8 18.9H28.3"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+          <path
+            d="M13.8 25.7C15.4569 25.7 16.8 24.3569 16.8 22.7C16.8 21.0432 15.4569 19.7 13.8 19.7C12.1431 19.7 10.8 21.0432 10.8 22.7C10.8 24.3569 12.1431 25.7 13.8 25.7Z"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+          <path
+            d="M25.3 25.7C26.9568 25.7 28.3 24.3569 28.3 22.7C28.3 21.0432 26.9568 19.7 25.3 19.7C23.6431 19.7 22.3 21.0432 22.3 22.7C22.3 24.3569 23.6431 25.7 25.3 25.7Z"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+          <path
+            d="M25.7 14.6H11.3C10.7 14.6 10.1 14.2 10 13.6L8.1 6.90001C7.9 6.00001 8.49999 5.20001 9.39999 5.20001H27.5C28.4 5.20001 29.1 6.10001 28.8 6.90001L26.9 13.6C26.9 14.2 26.4 14.6 25.7 14.6Z"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="2"
+          />
+        </svg>
+      </a>
+    </header>
+    <div id="total-list-anchor">
+      <a href="./list.html">전체 상품 보러가기 &gt;</a>
+    </div>
+    <!-- <section class="product-list-section">
+      <div class="section-title">
+        <span class="section-title-highlight"></span>
+        <span>인기 상품</span>
+      </div>
+      <div class="product-list-con">
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/파프리카.jpg" alt="파프리카 2입" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cart.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">파프리카 2입</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">20%</div>
+              <div class="product-price">2,000원</div>
+            </div>
+            <div class="product-original-price">2,500원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/당근.jpg" alt="친환경 당근 400g" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cart.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">친환경 당근 400g</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">33%</div>
+              <div class="product-price">2,000원</div>
+            </div>
+            <div class="product-original-price">3,000원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/단호박.jpg" alt="단호박 1통" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cart.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">단호박 1통</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">12%</div>
+              <div class="product-price">3,520원</div>
+            </div>
+            <div class="product-original-price">4,000원</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-list-section">
+      <div class="section-title">
+        <span class="section-title-highlight"></span>
+        <span>새로 들어온 상품</span>
+      </div>
+      <div class="product-list-con">
+        <div class="product-card">
+          <div class="product-image-con">
+            <img
+              src="public/assets/삼겹살.jpg"
+              alt="구이용 삼겹살 600g (냉장)"
+            />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cart.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">구이용 삼겹살 600g (냉장)</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">5%</div>
+              <div class="product-price">14,820원</div>
+            </div>
+            <div class="product-original-price">15,600원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/머핀.jpg" alt="[홍대 W마켓] 컵케익 (2입)" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">[홍대 W마켓] 컵케익 (2입)</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">20%</div>
+              <div class="product-price">4,800원</div>
+            </div>
+            <div class="product-original-price">6,000원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img
+              src="public/assets/원두.jpg"
+              alt="[카페 W] 디카페인 원두 1kg"
+            />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">[카페 W] 디카페인 원두 1kg</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">15%</div>
+              <div class="product-price">7,140원</div>
+            </div>
+            <div class="product-original-price">8,400원</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-list-section">
+      <div class="section-title">
+        <span class="section-title-highlight"></span>
+        <span>재구매율이 높은 상품</span>
+      </div>
+      <div class="product-list-con">
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/식빵.jpg" alt="우유 토스트 식빵" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">우유 토스트 식빵</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">10%</div>
+              <div class="product-price">3,000원</div>
+            </div>
+            <div class="product-original-price">3,300원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/파스타.jpg" alt="롱 파스타 면 2종" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">롱 파스타 면 2종</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">5%</div>
+              <div class="product-price">7,600원</div>
+            </div>
+            <div class="product-original-price">8,000원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/바나나.jpg" alt="바나나 1kg (필리핀 산)" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">바나나 1kg (필리핀 산)</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">10%</div>
+              <div class="product-price">2,700원</div>
+            </div>
+            <div class="product-original-price">3,000원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img
+              src="public/assets/키위.jpg"
+              alt="뉴질랜드 골드 키위 4입 1팩"
+            />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">뉴질랜드 골드 키위 4입 1팩</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">5%</div>
+              <div class="product-price">10,310원</div>
+            </div>
+            <div class="product-original-price">10,900원</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image-con">
+            <img src="public/assets/아보카도.jpg" alt="아보카도 200g 1개" />
+            <button type="button" class="cart-toggle-btn">
+              <img src="public/assets/cartDisabled.png" class="cart-image" />
+            </button>
+          </div>
+          <div class="product-description">
+            <div class="product-name">아보카도 200g 1개</div>
+            <div class="product-price-con">
+              <div class="product-discount-percent">5%</div>
+              <div class="product-price">2,700원</div>
+            </div>
+            <div class="product-original-price">3,000원</div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

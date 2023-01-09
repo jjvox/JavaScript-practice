@@ -1,0 +1,33 @@
+.product-list-section{
+  padding: 16px;
+}
+.section-title{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0 40px;
+}
+.section-title-highlight{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 85px;
+  height: 10px;
+  background-color: rgba(255, 153, 122, 0.625);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+#total-list-anchor{
+  text-align: center;
+  margin: 50px 0;
+}
+#total-list-anchor>a{
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#total-list-anchor>a:hover{
+  background-color: rgb(232, 232, 232);
+}
+
+/* styled component의 원리 언급 */

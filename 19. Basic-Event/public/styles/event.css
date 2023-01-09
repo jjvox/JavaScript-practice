@@ -1,0 +1,169 @@
+#event-container{
+  width: 600px;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+section>div{
+  padding: 4rem 0;
+}
+#title-section{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(211, 223, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+#title-section>.title{
+  padding-top: 0;
+}
+#participate-number{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff6200;
+  margin-top: 40px;
+}
+.participate-num-con{
+  width: 100%;
+  text-align: center;
+}
+.participate-title{
+  border-bottom: 1px solid gray;
+  padding: 3% 20%;
+  font-size: 1.2rem;
+}
+
+#participate-section {
+  position: relative;
+  background-color: rgb(248, 250, 255);
+  display: flex;
+  flex-direction: column;
+}
+.snack-card-list{
+  margin: 2%;
+}
+.snack-card{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-radius: 1rem;
+  border: 1px solid rgb(198, 198, 198);
+  background-color: white;
+  margin-bottom: 2%;
+}
+.snack-card.select{
+  border: 3px solid rgb(111, 164, 255);
+}
+.snack-card>img{
+  width: 20%;
+  margin-right: 2%;
+}
+.snack-description{
+  width: 78%;
+  text-align: left;
+}
+.snack-description>div:first-of-type{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.3rem 0 0.5rem;
+}
+.participate-button{
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(59, 131, 255);
+  color: white;
+  margin: 2%;
+}
+
+#result-section{
+  position: relative;
+  background-color: rgb(211, 223, 255); 
+}
+.result-container{
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  display: none;
+}
+.result-container.not-yet{
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.result-container>img{
+  width: 80%;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+.result-winner{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+#mbti-section{
+  background-color: rgb(248, 250, 255);
+}
+.mbti-container{
+  display: none;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.mbti-container.select{
+  display: block;
+}
+.mbti-select{
+  margin: 1rem;
+}
+.mbti-select>button{
+  padding: 1rem 2rem;
+  background-color: rgb(59, 131, 255);
+  border-radius: 0.5rem;
+  color: white;
+}
+.mbti-select>button:hover{
+  background-color: rgb(83, 146, 255);
+}
+.mbti-select>button:first-of-type{
+  margin-right: 1rem;
+}
+.mbti-result{
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.select-retry-button, .mbti-retry-button{
+  padding: 1rem 2rem;
+  background-color: rgb(59, 131, 255);
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+#share-section{
+  background-color: rgb(211, 223, 255); 
+  text-align: center;
+}
+#url-share-button{
+  padding: 1rem 2rem;
+  background-color: rgb(59, 131, 255);
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>후기 참여 이벤트</title>
+    <link href="public/styles/reset.css" rel="stylesheet" />
+    <link href="public/styles/header.css" rel="stylesheet" />
+    <link href="public/styles/event.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a id="title" href="./index.html">나의 최애 과자는?</a>
+      <div id="tab-menu">
+        <button id="anchor-to-select">최애 과자 뽑기</button>
+        <button id="anchor-to-result">결과 보기</button>
+        <button id="anchor-to-mbti">과자 유형 검사</button>
+      </div>
+    </header>
+    <section id="event-container">
+      <div id="title-section">
+        <div class="title">나의 최애<br />과자는?</div>
+        <div class="participate-num-con">
+          <span class="participate-title">뽑기 참여자 수</span>
+          <div id="participate-number">0</div>
+        </div>
+      </div>
+      <div id="participate-section">
+        <div class="title"># 최애 과자 뽑기</div>
+        <div class="snack-card-list">
+          <!-- <button id="select-1" class="snack-card">
+            <img src="public/assets/초코꼬북칩.jpeg" alt="초코꼬북칩" />
+            <div class="snack-description">
+              <div>과자 이름</div>
+              <div>
+                과자 설명 과자 설명과자 설명과자 설명과자 설명과자 설명과자
+                설명과자 설명과자 설명과자 설명과자 설명과자 설명과자 설명과자
+                설명과자 설명과자 설명과자 설명과자 설명과자 설명
+              </div>
+            </div>
+          </button>
+          <button id="select-2" class="snack-card select">
+            <img src="public/assets/초코꼬북칩.jpeg" alt="초코꼬북칩" />
+            <div class="snack-description">
+              <div>과자 이름</div>
+              <div>
+                과자 설명 과자 설명과자 설명과자 설명과자 설명과자 설명과자
+                설명과자 설명과자 설명과자 설명과자 설명과자 설명과자 설명과자
+                설명과자 설명과자 설명과자 설명과자 설명과자 설명
+              </div>
+            </div>
+          </button> -->
+        </div>
+        <button class="participate-button">선택하기</button>
+      </div>
+      <div id="result-section">
+        <div class="title"># 나의 최애 과자는</div>
+        <div class="result-container not-yet">아직 뽑기 전</div>
+        <div class="result-container">
+          <div>당신의 최애 과자는...</div>
+          <img src="public/assets/초코꼬북칩.jpeg" alt="초코꼬북칩" />
+          <div class="result-winner">과자이름</div>
+          <div class="result-description">설명</div>
+          <button class="select-retry-button">다시 하기</button>
+        </div>
+      </div>
+      <div id="mbti-section">
+        <div class="title"># 과자 유형 검사</div>
+        <div class="mbti-container">
+          <div class="mbti-question">짠 과자가 더 좋다.</div>
+          <div class="mbti-select">
+            <button type="button">YES</button>
+            <button type="button">NO</button>
+          </div>
+        </div>
+        <div class="mbti-container pending">결과 불러오는 중...</div>
+        <div class="mbti-container result">
+          <div class="mbti-result">짠 과자가 최고야! (A 유형)</div>
+          <div class="mbti-description">
+            짠 과자를 좋아하는 유형 짠 과자를 좋아하는 유형짠 과자를 좋아하는
+            유형짠 과자를 좋아하는 유형짠 과자를 좋아하는 유형
+          </div>
+          <button class="mbti-retry-button">다시 하기</button>
+        </div>
+      </div>
+      <div id="share-section">
+        <div class="title"># 공유하기</div>
+        <button id="url-share-button">URL 공유하기</button>
+      </div>
+    </section>
+    <!-- type="module" 을 통해 module 시스템을 사용 한다고 알려 줌 -->
+    <script src="./main.js" type="module"></script>
+    /
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 99vw;
+  top: 0px;
+  left: 0px;
+  z-index: -999;
+}

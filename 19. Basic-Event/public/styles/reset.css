@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+header, section{
+  position: relative;
+}
+
+/* css 나누기 */
