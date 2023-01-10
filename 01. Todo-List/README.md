@@ -8,4 +8,4 @@
 ![0](https://user-images.githubusercontent.com/110772094/211556817-75ab97ce-33b1-43c8-ae0e-ed2832f1f756.PNG)
 
 
--Zerobase TypeScript 강의 중..-
+-Zerobase JavaScript 강의 중..-
