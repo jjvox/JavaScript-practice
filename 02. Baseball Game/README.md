@@ -1,4 +1,4 @@
-# Javascript 
+# Javascript Baseball Game
 
 - 바닐라 자바스크립트 실습.
 - 랜덤 사용
