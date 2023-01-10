@@ -1,4 +1,4 @@
-# Javascript Todo-List
+# Javascript 
 
 - 바닐라 자바스크립트 실습.
 - 랜덤 사용
