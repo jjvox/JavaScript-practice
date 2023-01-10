@@ -4,7 +4,8 @@
 - json-server와 fetch 사용
 - pagination 구현
 
-![0](https://user-images.githubusercontent.com/110772094/211556588-4dbb907b-0e75-4990-8875-a6042080a33a.PNG)
+
+![0](https://user-images.githubusercontent.com/110772094/211556817-75ab97ce-33b1-43c8-ae0e-ed2832f1f756.PNG)
 
 
 -Zerobase TypeScript 강의 중..-
