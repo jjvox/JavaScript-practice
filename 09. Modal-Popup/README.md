@@ -4,7 +4,8 @@
 - 정말 많이 사용 되는 modal-popup 구현.
 - 한번 만들어 두면 계속 사용 가능.  
 
-![09](https://user-images.githubusercontent.com/110772094/211712413-a9592009-aafa-4a0a-a965-2c7a6240eed9.PNG)
+
+![09](https://user-images.githubusercontent.com/110772094/211712639-90cc4817-d0fb-4a7e-a458-257808f4eb9e.PNG)
 
 
 -Zerobase JavaScript 강의 중..-
